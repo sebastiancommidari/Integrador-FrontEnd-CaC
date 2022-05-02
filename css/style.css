@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div.container-fluid#navbar {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#comprarTickets{
+    color: green;
+}
+
+.carousel-item{
+    height: 100vh;
+    background: no-repeat scroll center scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.carousel-item::before{
+    content: '';
+    background-color: black;
+    display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    opacity: 0.7; 
+  }
+
+  .carousel-caption{
+      width: 100%;
+      padding-left: 60%;
+      bottom: 20% !important;
+      right:10% !important;
+  }
+
+  .carousel-caption h1,.carousel-caption p,.slider-btn{
+      text-align: right;
+  }
+
+  .btn-outline-secondary{
+      color: white !important;
+      border-color: white !important;
+  }
+
+  .oradores{
+      text-align: center;
+      margin-top: 10px;
+      font-weight: 400;
+  }
+
+  .oradores span{
+      font-size: xx-large;
+      font-weight: 500;
+  }
+
+  .card-group{
+      padding-left: 10%;
+      padding-right: 10%;
+      padding-bottom: 50px;
+    }
+
+  .card{
+      margin-left: 3%;
+      margin-right: 3%;   
+  }
+  
+  .card-text{
+      font-size: small;
+  }
+
+  .div-izq{
+    background-image: url(../img/honolulu.jpg);
+    background-size: cover;
+    min-height: 450px;
+}
+
+    .div-der{
+    color: white;
+    padding-top: 1%;
+    }
+
+    .punteado{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: dashed 1px;
+    }
+
+    div.container{
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+
+#temaCharla{
+    padding-bottom: 100px;
+}
+
+#temaCharla::placeholder{
+    font-size: x-large;
+}
+
+#btn-form{
+    background-color: rgb(143, 209, 45);
+    border-color: rgb(143, 209, 45);
+}
+
+
+
+.menu{
+    margin-top: 100px;
+    background-color: rgba(29,57,71,255);
+    list-style: none;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-bottom: 0;   
+}
+
+.menu li{
+    display: inline-block;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: white;
+}
