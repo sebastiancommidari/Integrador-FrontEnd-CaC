@@ -3,6 +3,8 @@
     padding: 0;
 }
 
+/*HEADER*/
+
 div.container-fluid#navbar {
     margin-left: 5%;
     margin-right: 5%;
@@ -11,6 +13,8 @@ div.container-fluid#navbar {
 #comprarTickets{
     color: green;
 }
+
+/*SLIDER*/
 
 .carousel-item{
     height: 100vh;
@@ -47,31 +51,38 @@ div.container-fluid#navbar {
       border-color: white !important;
   }
 
-  .oradores{
+/*ORADORES*/
+
+  .intro{
       text-align: center;
       margin-top: 10px;
       font-weight: 400;
   }
 
-  .oradores span{
+  .intro span{
       font-size: xx-large;
       font-weight: 500;
   }
 
-  .card-group{
+/*CARDS*/
+
+  .card-group#oradores{
       padding-left: 10%;
       padding-right: 10%;
       padding-bottom: 50px;
     }
-
-  .card{
+    
+    .card{
       margin-left: 3%;
       margin-right: 3%;   
-  }
+    }
   
   .card-text{
       font-size: small;
   }
+
+
+/*HONOLULU*/
 
   .div-izq{
     background-image: url(../img/honolulu.jpg);
@@ -95,6 +106,8 @@ div.container-fluid#navbar {
         padding-right: 15%;
     }
 
+/*FORM*/
+
 #temaCharla{
     padding-bottom: 100px;
 }
@@ -110,8 +123,9 @@ div.container-fluid#navbar {
 
 
 
+/*FOOTER*/
+
 .menu{
-    margin-top: 100px;
     background-color: rgba(29,57,71,255);
     list-style: none;
     text-align: center;
@@ -132,3 +146,15 @@ div.container-fluid#navbar {
     text-decoration: none;
     color: white;
 }
+
+/*PÁGINA TICKETS*/
+
+.container {
+    margin-top: 2%;
+}
+
+#btn-borrar,#btn-resumen{
+    background-color: rgb(143, 209, 45);
+    border-color: rgb(143, 209, 45);
+}
+
